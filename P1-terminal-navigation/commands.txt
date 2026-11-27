@@ -1,0 +1,10 @@
+mkdir web-practice
+cd web-practice
+pwd
+mkdir html css images docs
+touch html/index.html docs/notes.txt
+ls
+
+PowerShell file-creation alternative:
+New-Item html/index.html -ItemType File
+New-Item docs/notes.txt -ItemType File
