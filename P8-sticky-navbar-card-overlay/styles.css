@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #24332b; }
+.navbar { position: sticky; top: 0; z-index: 10; display: flex; justify-content: space-between; padding: 18px 5%; background: #e8efdf; }
+main { width: min(850px, 90%); margin: 30px auto; }
+.spacer { min-height: 500px; display: grid; place-items: center; color: #758275; background: repeating-linear-gradient(white, white 30px, #edf1e8 31px); }
+.card { position: relative; max-width: 480px; margin: 40px auto; padding: 22px; border: 1px solid #d5dfd2; border-radius: 14px; background: white; }
+.badge { position: absolute; top: 12px; left: 12px; padding: 6px 10px; border-radius: 20px; background: #c8ef83; font-size: 12px; font-weight: bold; }
+.picture { min-height: 170px; display: grid; place-items: center; border-radius: 9px; background: #e5ecdf; }
