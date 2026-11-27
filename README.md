@@ -1,78 +1,59 @@
-# Web Dev Lab — Frontend Development Practicals (P1–P13)
+# Web Dev Lab — 13 Beginner Practicals (P1–P13)
 
-A beginner-friendly, project-based lab covering terminal navigation, Git and GitHub, semantic HTML, CSS foundations, responsive layouts, Flexbox, and CSS Grid.
+This repository is organised into **13 independent practical folders**. Each folder contains its own README with the objective, concepts, step-by-step task, file list and completion check, plus beginner-friendly starter code or exercises.
 
-The repository contains a responsive personal portfolio, a semantic biography page, a newspaper-style editorial layout, and written practical guides.
+## Start here
 
-## Live preview locally
+1. Open a practical folder.
+2. Read that folder's README.md first.
+3. Open the starter HTML or CSS/text file in VS Code.
+4. Follow the steps and personalise the example.
+5. For HTML practicals, open the page in a browser. For CSS practicals, use the HTML starter in the same folder when provided.
+6. Save your work and check the completion list in the folder README.
 
-No package installation or build step is required.
+No package installation is needed. Use VS Code with the Live Server extension if you prefer automatic browser refresh.
 
-1. Clone the repository:
-   \`\`\`bash
-   git clone https://github.com/mauryasameer016-oss/Web_Dev_Lab.git
-   cd Web_Dev_Lab
-   \`\`\`
-2. Open \`index.html\` in your browser, or use the VS Code **Live Server** extension.
-3. Navigate between the Portfolio, Bio, and Newspaper pages using the site navigation.
+## Practical folders
 
-## Practicals
-
-| Practical | Learning outcome | Project evidence |
+| Practical | Folder | Main learning outcome |
 | --- | --- | --- |
-| P1 | Create a project folder and navigate with terminal commands | [P1–P4 guide](docs/p1-p4-terminal-git-github.md#p1--project-folder-and-terminal-navigation) |
-| P2 | Initialize a Git repository and make the first commit | [P1–P4 guide](docs/p1-p4-terminal-git-github.md#p2--initialize-git-and-make-the-first-commit) |
-| P3 | Work safely with feature branches and commits | [P1–P4 guide](docs/p1-p4-terminal-git-github.md#p3--feature-branch-workflow) |
-| P4 | Write project documentation and create a version tag | [P1–P4 guide](docs/p1-p4-terminal-git-github.md#p4--readme-and-version-tags) |
-| P5 | Build a biography page with semantic HTML | [bio.html](bio.html) |
-| P6 | Structure a portfolio using semantic HTML sections | [index.html](index.html) |
-| P7 | Define reusable design tokens and typography | [styles.css](css/styles.css) |
-| P8 | Use sticky positioning and layered elements | [styles.css](css/styles.css) |
-| P9 | Build responsive navigation and card layouts | [styles.css](css/styles.css) |
-| P10 | Use Flexbox to align page sections and footer content | [index.html](index.html) and [styles.css](css/styles.css) |
-| P11 | Create a newspaper-inspired multi-column layout with Grid | [newspaper.html](newspaper.html) |
-| P12 | Build a responsive projects grid | [index.html](index.html) and [styles.css](css/styles.css) |
-| P13 | Explain when to choose Flexbox or Grid | [comparison guide](docs/flexbox-vs-grid.md) |
+| P1 | [P1-terminal-navigation](P1-terminal-navigation/) | Project folders and terminal navigation |
+| P2 | [P2-first-portfolio-commit](P2-first-portfolio-commit/) | Portfolio repository and initial Git commit |
+| P3 | [P3-feature-branch-workflow](P3-feature-branch-workflow/) | Feature branches, commits and pull requests |
+| P4 | [P4-readme-and-version-tags](P4-readme-and-version-tags/) | GitHub README and version tags |
+| P5 | [P5-semantic-bio-page](P5-semantic-bio-page/) | Semantic biography page |
+| P6 | [P6-semantic-portfolio-structure](P6-semantic-portfolio-structure/) | Full semantic portfolio structure |
+| P7 | [P7-design-tokens-typography](P7-design-tokens-typography/) | CSS design tokens and typography |
+| P8 | [P8-sticky-navbar-card-overlay](P8-sticky-navbar-card-overlay/) | Sticky navigation and positioned card overlay |
+| P9 | [P9-responsive-flexbox-navbar-cards](P9-responsive-flexbox-navbar-cards/) | Responsive navbar and cards with Flexbox |
+| P10 | [P10-header-footer-advanced-flexbox](P10-header-footer-advanced-flexbox/) | Advanced Flexbox header and footer |
+| P11 | [P11-newspaper-css-grid](P11-newspaper-css-grid/) | Newspaper layout using CSS Grid |
+| P12 | [P12-advanced-projects-grid](P12-advanced-projects-grid/) | Responsive portfolio projects grid |
+| P13 | [P13-flexbox-vs-grid](P13-flexbox-vs-grid/) | Choosing Flexbox or Grid |
 
-## Repository structure
+## Folder contents
 
-\`\`\`text
-Web_Dev_Lab/
-├── index.html
-├── bio.html
-├── newspaper.html
-├── css/
-│   └── styles.css
-└── docs/
-    ├── p1-p4-terminal-git-github.md
-    └── flexbox-vs-grid.md
-\`\`\`
+Each practical folder includes:
+- **README.md** — beginner instructions, objective, task steps, file explanations and completion check.
+- **Starter file(s)** — a small working example to inspect, run and customise.
 
-## Customize before submission
+Some practicals focus on Git commands or documentation rather than a browser project, so their starter files are command notes, a README template or a reflection worksheet.
 
-Search the HTML files and replace these placeholders with your own information:
+## Suggested learning order
 
-- \`Your Name\` — your preferred display name.
-- \`YN\` — your initials in the logo/avatar.
-- \`you@example.com\` — your actual contact email.
-- The sample location, learning goals, and project descriptions — update them to reflect your own details and work.
-- Add your own project links and screenshots if your instructor requests them.
+Complete P1 through P13 in order. P1–P4 teach your development workflow; P5–P6 build semantic HTML; P7–P10 introduce CSS foundations, positioning and Flexbox; P11–P13 practise Grid and compare layout approaches.
 
-Do not submit placeholder contact details as if they were real.
+## Before submitting your work
 
-## Checklist
-
-- [ ] Replace all personal placeholders.
-- [ ] Open all three HTML pages and check every navigation link.
-- [ ] Test the layout at mobile, tablet, and desktop widths.
-- [ ] Check keyboard navigation and visible focus states.
-- [ ] Run the Git exercises in the guide and verify your commit history.
-- [ ] Create a version tag after completing the practicals if required by your course.
+- Replace sample names, email addresses and placeholder text with your own details.
+- Run each HTML page in a browser and test the layout at desktop and mobile widths.
+- Complete the exercises yourself and keep your own Git commits as evidence.
+- Add screenshots or explanations if your instructor asks for them.
 
 ## Technologies
 
-HTML5 · CSS3 · CSS Flexbox · CSS Grid · Git · GitHub
+HTML5 · CSS3 · Git · GitHub · Flexbox · CSS Grid
 
 ---
 
-Created as a learning project for frontend development.
+Made for beginner-friendly frontend development practice.
