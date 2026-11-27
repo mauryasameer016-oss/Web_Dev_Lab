@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A responsive student portfolio built with semantic HTML, Flexbox and CSS Grid.">
+  <title>Your Name | Frontend Learner</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">YN<span>.</span></a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero page-shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">WEB DEVELOPER IN PROGRESS</p>
+        <h1 id="hero-title">Building for the <span>curious.</span></h1>
+        <p class="lead">Hello, I'm <strong>Your Name</strong> — a learner exploring frontend development and creating clean, useful experiences for the web.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work</a>
+          <a class="button button-secondary" href="bio.html">Read my bio</a>
+        </div>
+      </div>
+      <aside class="hero-note" aria-label="Portfolio introduction">
+        <span class="note-mark" aria-hidden="true">✳</span>
+        <p class="eyebrow">CURRENT FOCUS</p>
+        <h2>HTML · CSS · Git</h2>
+        <p>Learning by building, testing, and iterating.</p>
+      </aside>
+    </section>
+
+    <section id="about" class="content-section page-shell">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>Good design starts with <span>clear thinking.</span></h2>
+      </div>
+      <div class="about-layout">
+        <p class="about-statement">I'm developing the skills to turn ideas into accessible, responsive websites. I enjoy breaking big problems into small steps and learning the tools behind the craft.</p>
+        <div class="about-facts">
+          <p><strong>Based in</strong><span>India</span></p>
+          <p><strong>Learning</strong><span>Frontend development</span></p>
+          <p><strong>Approach</strong><span>Build · Review · Improve</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="content-section skills-section">
+      <div class="page-shell">
+        <div class="section-heading">
+          <p class="eyebrow">02 / TOOLKIT</p>
+          <h2>Things I'm working with.</h2>
+        </div>
+        <ul class="skill-grid">
+          <li><span>01</span><strong>HTML5</strong><small>Semantic structure</small></li>
+          <li><span>02</span><strong>CSS3</strong><small>Responsive styling</small></li>
+          <li><span>03</span><strong>Flexbox</strong><small>One-dimensional layout</small></li>
+          <li><span>04</span><strong>CSS Grid</strong><small>Two-dimensional layout</small></li>
+          <li><span>05</span><strong>Git</strong><small>Version control</small></li>
+          <li><span>06</span><strong>GitHub</strong><small>Collaboration &amp; hosting</small></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="content-section page-shell">
+      <div class="section-heading section-heading-row">
+        <div><p class="eyebrow">03 / SELECTED PRACTICALS</p><h2>Learning in public.</h2></div>
+        <p class="section-aside">A collection of exercises from my web development lab.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-art art-one"><span>01</span><b>&lt;html&gt;</b></div>
+          <div class="project-info"><p class="eyebrow">P5 · HTML</p><h3>Semantic Bio Page</h3><p>A structured personal introduction using meaningful HTML elements.</p><a href="bio.html" class="text-link">View practical <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-two"><span>02</span><b>{ CSS }</b></div>
+          <div class="project-info"><p class="eyebrow">P7–P10 · CSS</p><h3>Responsive Portfolio</h3><p>Design tokens, typography, positioning, Flexbox and responsive navigation.</p><a href="#contact" class="text-link">About this build <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-three"><span>03</span><b>▦</b></div>
+          <div class="project-info"><p class="eyebrow">P11 · GRID</p><h3>Editorial Layout</h3><p>A newspaper-inspired three-column page with a responsive grid.</p><a href="newspaper.html" class="text-link">View practical <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-four"><span>04</span><b>12</b></div>
+          <div class="project-info"><p class="eyebrow">P12–P13 · LAYOUT</p><h3>Grid &amp; Flexbox Study</h3><p>A practical comparison of layout tools and when to choose each one.</p><a href="docs/flexbox-vs-grid.md" class="text-link">Read notes <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="page-shell contact-inner">
+        <div><p class="eyebrow">04 / GET IN TOUCH</p><h2>Have an idea?<br><span>Let's connect.</span></h2></div>
+        <div class="contact-links">
+          <a class="button button-light" href="mailto:hello@example.com">Send an email</a>
+          <a class="contact-github" href="https://github.com/mauryasameer016-oss">GitHub profile ↗</a>
+          <small>Replace hello@example.com with your real email address.</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer footer-flex">
+    <a class="brand" href="index.html">YN<span>.</span></a>
+    <p>Designed and built with HTML &amp; CSS.</p>
+    <a href="#main" class="back-top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
