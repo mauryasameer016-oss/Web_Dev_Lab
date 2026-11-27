@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A newspaper-inspired three-column CSS Grid layout.">
+  <title>The Daily Grid | Web Dev Lab</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="news-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="news-masthead">
+    <p class="eyebrow">THE WEB DEV LAB PRESENTS</p>
+    <a href="index.html" class="news-name">The Daily Grid</a>
+    <p class="news-date">A layout study · Edition No. 011</p>
+  </header>
+  <nav class="news-nav" aria-label="Newspaper navigation">
+    <a href="index.html">Portfolio</a><a href="#latest">Latest</a><a href="#features">Features</a><a href="#opinion">Opinion</a>
+  </nav>
+  <main id="main" class="news-layout">
+    <section class="news-main" id="latest">
+      <article class="lead-story">
+        <p class="eyebrow">THE BIG STORY</p>
+        <h1>The web is built one thoughtful detail at a time</h1>
+        <p class="lead">A closer look at the small decisions — structure, spacing, and accessibility — that make digital experiences feel effortless.</p>
+        <div class="news-illustration" aria-label="Abstract illustration of a web page"><span>WEB<br>THINKING</span><i></i><b></b></div>
+        <p class="byline">By The Editorial Team · 5 min read</p>
+      </article>
+      <div class="news-columns">
+        <article class="news-article">
+          <p class="eyebrow">DESIGN</p><h2>Whitespace is part of the story</h2>
+          <p>Good spacing gives content room to breathe. A consistent spacing scale helps pages feel connected without making every section look identical.</p>
+        </article>
+        <article class="news-article">
+          <p class="eyebrow">DEVELOPMENT</p><h2>Semantic HTML does more with less</h2>
+          <p>Elements such as article, nav, main, and footer communicate the role of content to browsers, assistive technology, and future developers.</p>
+        </article>
+      </div>
+    </section>
+    <aside class="news-sidebar" id="features">
+      <section class="sidebar-block"><p class="eyebrow">IN THIS ISSUE</p><ol><li>Layout that adapts</li><li>Choosing the right CSS tool</li><li>Accessible by default</li></ol></section>
+      <section class="sidebar-block" id="opinion"><p class="eyebrow">EDITOR'S NOTE</p><h2>Start with content.</h2><p>When the structure is clear, visual design becomes easier to reason about. Let the content guide the layout.</p></section>
+      <a class="sidebar-cta" href="index.html">Explore the portfolio ↗</a>
+    </aside>
+  </main>
+  <footer class="site-footer"><p>© 2026 The Daily Grid · A CSS Grid practical</p></footer>
+</body>
+</html>
