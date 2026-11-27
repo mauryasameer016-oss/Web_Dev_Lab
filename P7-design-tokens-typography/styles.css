@@ -1,0 +1,18 @@
+:root {
+  --color-text: #24332b;
+  --color-muted: #617066;
+  --color-background: #f5f7f1;
+  --color-primary: #42634d;
+  --font-body: Arial, sans-serif;
+  --font-heading: Georgia, serif;
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-large: 32px;
+  --page-width: 900px;
+}
+* { box-sizing: border-box; }
+body { max-width: var(--page-width); margin: 0 auto; padding: var(--space-large); background: var(--color-background); color: var(--color-text); font-family: var(--font-body); line-height: 1.6; }
+h1, h2, h3 { font-family: var(--font-heading); }
+p { color: var(--color-muted); }
+a { color: var(--color-primary); }
+.card { margin-block: var(--space-medium); padding: var(--space-large); border-radius: 12px; background: white; }
